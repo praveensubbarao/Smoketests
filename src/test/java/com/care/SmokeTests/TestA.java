@@ -17,7 +17,7 @@ public class TestA {
 	public void FailTest() {
 
 		System.out.println('Test for failure');
-		Assert.assertEquals("qa@test.com", "qa@test.com");
+		Assert.assertEquals("qa1@test.com", "qa@test.com");
 
 	}
 
