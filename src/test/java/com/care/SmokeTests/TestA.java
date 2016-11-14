@@ -8,6 +8,7 @@ public class TestA {
 	@Test()
 	public void PassTest() {
 
+		System.out.println('Test for success');
 		Assert.assertEquals("qa@test.com", "qa@test.com");
 
 	}
@@ -15,6 +16,7 @@ public class TestA {
 	@Test()
 	public void FailTest() {
 
+		System.out.println('Test for failure');
 		Assert.assertEquals("qa@test.com", "qa@test.com");
 
 	}
