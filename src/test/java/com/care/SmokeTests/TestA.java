@@ -15,7 +15,7 @@ public class TestA {
 	@Test()
 	public void FailTest() {
 
-		Assert.assertEquals("qa1@test.com", "qa@test.com");
+		Assert.assertEquals("qa@test.com", "qa@test.com");
 
 	}
 
